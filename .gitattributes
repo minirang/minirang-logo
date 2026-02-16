@@ -1,3 +1,7 @@
-* linguist-vendored
-*.svg linguist-vendored=false
 *.svg linguist-language=SVG
+*.svg linguist-detectable=true
+*.svg linguist-generated=false
+*.svg linguist-vendored=false
+node_modules/* linguist-vendored
+dist/* linguist-generated
+build/* linguist-generated
